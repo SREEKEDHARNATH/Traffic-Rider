@@ -1,0 +1,3 @@
+/home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir
+/home/sree/Crescent/Traffic rider/build/CMakeFiles/edit_cache.dir
+/home/sree/Crescent/Traffic rider/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::FMT::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__FMT-Debug-e341078ee933f8ea1af1.json",
+					"name" : "PkgConfig::FMT",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::SDL2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__SDL2-Debug-919847dd8dfdb297c035.json",
+					"name" : "PkgConfig::SDL2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::SDL2_IMAGE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__SDL2_IMAGE-Debug-218ef5e9c147a612ac7d.json",
+					"name" : "PkgConfig::SDL2_IMAGE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::SDL2_MIXER::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__SDL2_MIXER-Debug-0671913d024f2d7f4990.json",
+					"name" : "PkgConfig::SDL2_MIXER",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "PkgConfig::SDL2_TTF::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PkgConfig__SDL2_TTF-Debug-8f623cfbacadf4834526.json",
+					"name" : "PkgConfig::SDL2_TTF",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "box2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-box2d-Debug-1d3943dd13ef6a5a4ef5.json",
+					"name" : "box2d",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-b23a0b23c080df4d29ba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "p",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "p::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-p-Debug-381914842f8908c3b6e8.json",
+					"name" : "p",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sree/Crescent/Traffic rider/build",
+		"source" : "/home/sree/Crescent/Traffic rider"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 11
+	}
+}
