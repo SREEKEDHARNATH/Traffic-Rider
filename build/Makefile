@@ -154,6 +154,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/windows.o: src/windows.cpp.o
+.PHONY : src/windows.o
+
+# target to build an object file
+src/windows.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.o
+.PHONY : src/windows.cpp.o
+
+src/windows.i: src/windows.cpp.i
+.PHONY : src/windows.i
+
+# target to preprocess a source file
+src/windows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.i
+.PHONY : src/windows.cpp.i
+
+src/windows.s: src/windows.cpp.s
+.PHONY : src/windows.s
+
+# target to generate assembly for a file
+src/windows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.s
+.PHONY : src/windows.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -166,6 +190,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/windows.o"
+	@echo "... src/windows.i"
+	@echo "... src/windows.s"
 .PHONY : help
 
 

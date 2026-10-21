@@ -1,5 +1,7 @@
-#include <iostream>
+#include "window.h"
 
 int main(){
-    std::cout << "Hello World!\n";
+    windows::run();
+    windows::quit();
+    
 }

@@ -5,6 +5,7 @@
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/sree/Crescent/Traffic rider/src/*.cpp")
 set(OLD_GLOB
   "/home/sree/Crescent/Traffic rider/src/main.cpp"
+  "/home/sree/Crescent/Traffic rider/src/windows.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

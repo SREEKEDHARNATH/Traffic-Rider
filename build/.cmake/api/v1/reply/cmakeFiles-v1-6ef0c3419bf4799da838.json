@@ -5,7 +5,8 @@
 			"expression" : "/home/sree/Crescent/Traffic rider/src/*.cpp",
 			"paths" : 
 			[
-				"/home/sree/Crescent/Traffic rider/src/main.cpp"
+				"/home/sree/Crescent/Traffic rider/src/main.cpp",
+				"/home/sree/Crescent/Traffic rider/src/windows.cpp"
 			],
 			"recurse" : true
 		}
