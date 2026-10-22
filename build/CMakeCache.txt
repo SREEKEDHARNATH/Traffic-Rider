@@ -383,7 +383,7 @@ CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Deprecated.  Use -W[no-]deprecated instead.
 CMAKE_WARN_DEPRECATED:INTERNAL=ON
 //Details about finding PkgConfig
-FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/sbin/pkg-config][v3.0.7()]
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/sbin/pkg-config][v3.0.10()]
 FMT_CFLAGS:INTERNAL=-I/usr/include
 FMT_CFLAGS_I:INTERNAL=
 FMT_CFLAGS_OTHER:INTERNAL=

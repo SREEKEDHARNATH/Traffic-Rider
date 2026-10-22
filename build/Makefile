@@ -130,6 +130,54 @@ p/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/build
 .PHONY : p/fast
 
+src/api.o: src/api.cpp.o
+.PHONY : src/api.o
+
+# target to build an object file
+src/api.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/api.cpp.o
+.PHONY : src/api.cpp.o
+
+src/api.i: src/api.cpp.i
+.PHONY : src/api.i
+
+# target to preprocess a source file
+src/api.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/api.cpp.i
+.PHONY : src/api.cpp.i
+
+src/api.s: src/api.cpp.s
+.PHONY : src/api.s
+
+# target to generate assembly for a file
+src/api.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/api.cpp.s
+.PHONY : src/api.cpp.s
+
+src/listeners.o: src/listeners.cpp.o
+.PHONY : src/listeners.o
+
+# target to build an object file
+src/listeners.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/listeners.cpp.o
+.PHONY : src/listeners.cpp.o
+
+src/listeners.i: src/listeners.cpp.i
+.PHONY : src/listeners.i
+
+# target to preprocess a source file
+src/listeners.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/listeners.cpp.i
+.PHONY : src/listeners.cpp.i
+
+src/listeners.s: src/listeners.cpp.s
+.PHONY : src/listeners.s
+
+# target to generate assembly for a file
+src/listeners.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/listeners.cpp.s
+.PHONY : src/listeners.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -153,6 +201,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/physics.o: src/physics.cpp.o
+.PHONY : src/physics.o
+
+# target to build an object file
+src/physics.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/physics.cpp.o
+.PHONY : src/physics.cpp.o
+
+src/physics.i: src/physics.cpp.i
+.PHONY : src/physics.i
+
+# target to preprocess a source file
+src/physics.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/physics.cpp.i
+.PHONY : src/physics.cpp.i
+
+src/physics.s: src/physics.cpp.s
+.PHONY : src/physics.s
+
+# target to generate assembly for a file
+src/physics.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/physics.cpp.s
+.PHONY : src/physics.cpp.s
 
 src/windows.o: src/windows.cpp.o
 .PHONY : src/windows.o
@@ -187,9 +259,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... p"
+	@echo "... src/api.o"
+	@echo "... src/api.i"
+	@echo "... src/api.s"
+	@echo "... src/listeners.o"
+	@echo "... src/listeners.i"
+	@echo "... src/listeners.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/physics.o"
+	@echo "... src/physics.i"
+	@echo "... src/physics.s"
 	@echo "... src/windows.o"
 	@echo "... src/windows.i"
 	@echo "... src/windows.s"

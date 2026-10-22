@@ -2,7 +2,10 @@ p: \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o \
+  CMakeFiles/p.dir/src/api.cpp.o \
+  CMakeFiles/p.dir/src/listeners.cpp.o \
   CMakeFiles/p.dir/src/main.cpp.o \
+  CMakeFiles/p.dir/src/physics.cpp.o \
   CMakeFiles/p.dir/src/windows.cpp.o \
   /home/sree/Crescent/Traffic rider/libs/libbox2d.a \
   /usr/lib/libSDL2_image.so \
@@ -77,7 +80,13 @@ p: \
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o:
 
+CMakeFiles/p.dir/src/api.cpp.o:
+
+CMakeFiles/p.dir/src/listeners.cpp.o:
+
 CMakeFiles/p.dir/src/main.cpp.o:
+
+CMakeFiles/p.dir/src/physics.cpp.o:
 
 CMakeFiles/p.dir/src/windows.cpp.o:
 

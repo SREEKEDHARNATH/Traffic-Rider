@@ -1115,7 +1115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "[/usr/sbin/pkg-config][v3.0.7()]"
+			"value" : "[/usr/sbin/pkg-config][v3.0.10()]"
 		},
 		{
 			"name" : "FMT_CFLAGS",

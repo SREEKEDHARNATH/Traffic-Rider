@@ -1,7 +1,7 @@
 CMakeFiles/p.dir/src/main.cpp.o: \
  /home/sree/Crescent/Traffic\ rider/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/sree/Crescent/Traffic\ rider/include/window.h \
+ /home/sree/Crescent/Traffic\ rider/include/window.hpp \
  /usr/include/SDL2/SDL_render.h /usr/include/SDL2/SDL_stdinc.h \
  /usr/include/SDL2/SDL_config.h /usr/include/SDL2/SDL_platform.h \
  /usr/include/SDL2/begin_code.h /usr/include/SDL2/close_code.h \
