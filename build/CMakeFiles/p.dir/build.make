@@ -128,19 +128,19 @@ CMakeFiles/p.dir/src/physics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p.dir/src/physics.cpp.s"
 	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sree/Crescent/Traffic rider/src/physics.cpp" -o CMakeFiles/p.dir/src/physics.cpp.s
 
-CMakeFiles/p.dir/src/windows.cpp.o: CMakeFiles/p.dir/flags.make
-CMakeFiles/p.dir/src/windows.cpp.o: /home/sree/Crescent/Traffic\ rider/src/windows.cpp
-CMakeFiles/p.dir/src/windows.cpp.o: CMakeFiles/p.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sree/Crescent/Traffic rider/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p.dir/src/windows.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p.dir/src/windows.cpp.o -MF CMakeFiles/p.dir/src/windows.cpp.o.d -o CMakeFiles/p.dir/src/windows.cpp.o -c "/home/sree/Crescent/Traffic rider/src/windows.cpp"
+CMakeFiles/p.dir/src/window.cpp.o: CMakeFiles/p.dir/flags.make
+CMakeFiles/p.dir/src/window.cpp.o: /home/sree/Crescent/Traffic\ rider/src/window.cpp
+CMakeFiles/p.dir/src/window.cpp.o: CMakeFiles/p.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/home/sree/Crescent/Traffic rider/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/p.dir/src/window.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/p.dir/src/window.cpp.o -MF CMakeFiles/p.dir/src/window.cpp.o.d -o CMakeFiles/p.dir/src/window.cpp.o -c "/home/sree/Crescent/Traffic rider/src/window.cpp"
 
-CMakeFiles/p.dir/src/windows.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p.dir/src/windows.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sree/Crescent/Traffic rider/src/windows.cpp" > CMakeFiles/p.dir/src/windows.cpp.i
+CMakeFiles/p.dir/src/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/p.dir/src/window.cpp.i"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/sree/Crescent/Traffic rider/src/window.cpp" > CMakeFiles/p.dir/src/window.cpp.i
 
-CMakeFiles/p.dir/src/windows.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p.dir/src/windows.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sree/Crescent/Traffic rider/src/windows.cpp" -o CMakeFiles/p.dir/src/windows.cpp.s
+CMakeFiles/p.dir/src/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/p.dir/src/window.cpp.s"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/sree/Crescent/Traffic rider/src/window.cpp" -o CMakeFiles/p.dir/src/window.cpp.s
 
 # Object files for target p
 p_OBJECTS = \
@@ -148,7 +148,7 @@ p_OBJECTS = \
 "CMakeFiles/p.dir/src/listeners.cpp.o" \
 "CMakeFiles/p.dir/src/main.cpp.o" \
 "CMakeFiles/p.dir/src/physics.cpp.o" \
-"CMakeFiles/p.dir/src/windows.cpp.o"
+"CMakeFiles/p.dir/src/window.cpp.o"
 
 # External object files for target p
 p_EXTERNAL_OBJECTS =
@@ -157,7 +157,7 @@ p : CMakeFiles/p.dir/src/api.cpp.o
 p : CMakeFiles/p.dir/src/listeners.cpp.o
 p : CMakeFiles/p.dir/src/main.cpp.o
 p : CMakeFiles/p.dir/src/physics.cpp.o
-p : CMakeFiles/p.dir/src/windows.cpp.o
+p : CMakeFiles/p.dir/src/window.cpp.o
 p : CMakeFiles/p.dir/build.make
 p : CMakeFiles/p.dir/compiler_depend.ts
 p : /home/sree/Crescent/Traffic\ rider/libs/libbox2d.a

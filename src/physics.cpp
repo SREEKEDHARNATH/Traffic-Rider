@@ -67,6 +67,7 @@ namespace physics {
             b2Polygon poly = b2MakeBox(wi/2, he/2);
             b2ShapeDef sh=b2DefaultShapeDef();
             sh.density=1.0;
+            sh.enableContactEvents = true; 
             b2ShapeId* shape=new b2ShapeId();
             *shape=b2CreatePolygonShape(*id, &sh, &poly);
     

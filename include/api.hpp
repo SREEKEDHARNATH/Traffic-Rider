@@ -7,7 +7,7 @@ namespace api{
     class image{
         std::shared_ptr<SDL_Texture> ptr;
         public:
-            bool autoset=true;
+            bool autoset=false;
             SDL_Rect dstrect={0,0,0,0};
             image(const char* name);
             void draw();

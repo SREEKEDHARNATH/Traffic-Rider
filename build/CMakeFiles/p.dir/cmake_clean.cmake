@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/p.dir/src/main.cpp.o.d"
   "CMakeFiles/p.dir/src/physics.cpp.o"
   "CMakeFiles/p.dir/src/physics.cpp.o.d"
-  "CMakeFiles/p.dir/src/windows.cpp.o"
-  "CMakeFiles/p.dir/src/windows.cpp.o.d"
+  "CMakeFiles/p.dir/src/window.cpp.o"
+  "CMakeFiles/p.dir/src/window.cpp.o.d"
   "p"
   "p.pdb"
 )

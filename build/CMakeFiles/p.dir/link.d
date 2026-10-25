@@ -6,7 +6,7 @@ p: \
   CMakeFiles/p.dir/src/listeners.cpp.o \
   CMakeFiles/p.dir/src/main.cpp.o \
   CMakeFiles/p.dir/src/physics.cpp.o \
-  CMakeFiles/p.dir/src/windows.cpp.o \
+  CMakeFiles/p.dir/src/window.cpp.o \
   /home/sree/Crescent/Traffic rider/libs/libbox2d.a \
   /usr/lib/libSDL2_image.so \
   /usr/lib/libSDL2_ttf.so \
@@ -88,7 +88,7 @@ CMakeFiles/p.dir/src/main.cpp.o:
 
 CMakeFiles/p.dir/src/physics.cpp.o:
 
-CMakeFiles/p.dir/src/windows.cpp.o:
+CMakeFiles/p.dir/src/window.cpp.o:
 
 /home/sree/Crescent/Traffic rider/libs/libbox2d.a:
 

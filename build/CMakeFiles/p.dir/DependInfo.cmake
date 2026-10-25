@@ -12,7 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/sree/Crescent/Traffic rider/src/listeners.cpp" "CMakeFiles/p.dir/src/listeners.cpp.o" "gcc" "CMakeFiles/p.dir/src/listeners.cpp.o.d"
   "/home/sree/Crescent/Traffic rider/src/main.cpp" "CMakeFiles/p.dir/src/main.cpp.o" "gcc" "CMakeFiles/p.dir/src/main.cpp.o.d"
   "/home/sree/Crescent/Traffic rider/src/physics.cpp" "CMakeFiles/p.dir/src/physics.cpp.o" "gcc" "CMakeFiles/p.dir/src/physics.cpp.o.d"
-  "/home/sree/Crescent/Traffic rider/src/windows.cpp" "CMakeFiles/p.dir/src/windows.cpp.o" "gcc" "CMakeFiles/p.dir/src/windows.cpp.o.d"
+  "/home/sree/Crescent/Traffic rider/src/window.cpp" "CMakeFiles/p.dir/src/window.cpp.o" "gcc" "CMakeFiles/p.dir/src/window.cpp.o.d"
   "" "p" "gcc" "CMakeFiles/p.dir/link.d"
   )
 

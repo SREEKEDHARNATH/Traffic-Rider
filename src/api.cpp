@@ -6,12 +6,13 @@
 
 namespace api {
     image::image(const char* name){
-        SDL_Texture* tex=IMG_LoadTexture(windows::getRenderer().get(), name);
+        SDL_Texture* tex=IMG_LoadTexture(window::getRenderer().get(), name);
         if (!tex){
             std::cerr << IMG_GetError() << "\n";
             return;
         }
         ptr.reset(tex, SDL_DestroyTexture);
+        SDL_QueryTexture(ptr.get(), nullptr,nullptr, &dstrect.w, &dstrect.h);
     }
     void image::draw(){
         if (ptr.get()){
@@ -19,10 +20,10 @@ namespace api {
                 SDL_QueryTexture(ptr.get(), nullptr,nullptr, &dstrect.w, &dstrect.h);
             }
             if (dstrect.w==0 || dstrect.h==0){
-                SDL_RenderCopy(windows::getRenderer().get(), ptr.get(), nullptr, nullptr);
+                SDL_RenderCopy(window::getRenderer().get(), ptr.get(), nullptr, nullptr);
             }
             else {
-                SDL_RenderCopy(windows::getRenderer().get(), ptr.get(), nullptr, &dstrect);
+                SDL_RenderCopy(window::getRenderer().get(), ptr.get(), nullptr, &dstrect);
             }
         }
     }

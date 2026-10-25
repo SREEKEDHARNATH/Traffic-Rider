@@ -1190,7 +1190,7 @@ CMakeFiles/p.dir/src/physics.cpp.o: /home/sree/Crescent/Traffic\ rider/src/physi
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
-CMakeFiles/p.dir/src/windows.cpp.o: /home/sree/Crescent/Traffic\ rider/src/windows.cpp \
+CMakeFiles/p.dir/src/window.cpp.o: /home/sree/Crescent/Traffic\ rider/src/window.cpp \
   /home/sree/Crescent/Traffic\ rider/include/api.hpp \
   /home/sree/Crescent/Traffic\ rider/include/box2d/base.h \
   /home/sree/Crescent/Traffic\ rider/include/box2d/box2d.h \
@@ -1708,7 +1708,7 @@ p: /home/sree/Crescent/Traffic \
   CMakeFiles/p.dir/src/listeners.cpp.o \
   CMakeFiles/p.dir/src/main.cpp.o \
   CMakeFiles/p.dir/src/physics.cpp.o \
-  CMakeFiles/p.dir/src/windows.cpp.o \
+  CMakeFiles/p.dir/src/window.cpp.o \
   rider/libs/libbox2d.a
 
 
@@ -1769,8 +1769,6 @@ CMakeFiles/p.dir/src/physics.cpp.o:
 /home/sree/Crescent/Traffic:
 
 /usr/include/c++/16/bits/stl_relops.h:
-
-/home/sree/Crescent/Traffic\ rider/src/windows.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdbool.h:
 
@@ -1897,6 +1895,8 @@ CMakeFiles/p.dir/src/physics.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/hresetintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512bmmintrin.h:
+
+/home/sree/Crescent/Traffic\ rider/src/window.cpp:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/avx512bitalgintrin.h:
 
@@ -2288,6 +2288,8 @@ CMakeFiles/p.dir/src/api.cpp.o:
 
 /usr/include/SDL2/SDL_config.h:
 
+CMakeFiles/p.dir/src/window.cpp.o:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/libgcc_s.so:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/mwaitxintrin.h:
@@ -2391,8 +2393,6 @@ CMakeFiles/p.dir/src/api.cpp.o:
 /usr/lib/libjbig.so.2.2:
 
 /usr/include/SDL2/SDL_render.h:
-
-CMakeFiles/p.dir/src/windows.cpp.o:
 
 /usr/include/bits/waitstatus.h:
 

@@ -1194,8 +1194,8 @@ CMakeFiles/p.dir/src/physics.cpp.o
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stddef.h
  /usr/lib/gcc/x86_64-pc-linux-gnu/16/include/stdint.h
 
-CMakeFiles/p.dir/src/windows.cpp.o
- /home/sree/Crescent/Traffic rider/src/windows.cpp
+CMakeFiles/p.dir/src/window.cpp.o
+ /home/sree/Crescent/Traffic rider/src/window.cpp
  /home/sree/Crescent/Traffic rider/include/api.hpp
  /home/sree/Crescent/Traffic rider/include/box2d/base.h
  /home/sree/Crescent/Traffic rider/include/box2d/box2d.h
@@ -1714,6 +1714,6 @@ p
  /home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir/src/listeners.cpp.o
  /home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir/src/main.cpp.o
  /home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir/src/physics.cpp.o
- /home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir/src/windows.cpp.o
+ /home/sree/Crescent/Traffic rider/build/CMakeFiles/p.dir/src/window.cpp.o
  /home/sree/Crescent/Traffic rider/build/rider/libs/libbox2d.a
 

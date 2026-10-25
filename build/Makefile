@@ -226,29 +226,29 @@ src/physics.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/physics.cpp.s
 .PHONY : src/physics.cpp.s
 
-src/windows.o: src/windows.cpp.o
-.PHONY : src/windows.o
+src/window.o: src/window.cpp.o
+.PHONY : src/window.o
 
 # target to build an object file
-src/windows.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.o
-.PHONY : src/windows.cpp.o
+src/window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/window.cpp.o
+.PHONY : src/window.cpp.o
 
-src/windows.i: src/windows.cpp.i
-.PHONY : src/windows.i
+src/window.i: src/window.cpp.i
+.PHONY : src/window.i
 
 # target to preprocess a source file
-src/windows.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.i
-.PHONY : src/windows.cpp.i
+src/window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/window.cpp.i
+.PHONY : src/window.cpp.i
 
-src/windows.s: src/windows.cpp.s
-.PHONY : src/windows.s
+src/window.s: src/window.cpp.s
+.PHONY : src/window.s
 
 # target to generate assembly for a file
-src/windows.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/windows.cpp.s
-.PHONY : src/windows.cpp.s
+src/window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/p.dir/build.make CMakeFiles/p.dir/src/window.cpp.s
+.PHONY : src/window.cpp.s
 
 # Help Target
 help:
@@ -271,9 +271,9 @@ help:
 	@echo "... src/physics.o"
 	@echo "... src/physics.i"
 	@echo "... src/physics.s"
-	@echo "... src/windows.o"
-	@echo "... src/windows.i"
-	@echo "... src/windows.s"
+	@echo "... src/window.o"
+	@echo "... src/window.i"
+	@echo "... src/window.s"
 .PHONY : help
 
 

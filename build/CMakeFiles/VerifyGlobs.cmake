@@ -8,7 +8,7 @@ set(OLD_GLOB
   "/home/sree/Crescent/Traffic rider/src/listeners.cpp"
   "/home/sree/Crescent/Traffic rider/src/main.cpp"
   "/home/sree/Crescent/Traffic rider/src/physics.cpp"
-  "/home/sree/Crescent/Traffic rider/src/windows.cpp"
+  "/home/sree/Crescent/Traffic rider/src/window.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
