@@ -5,6 +5,7 @@
 This is a c++ sdl2 build of a traffic rider it just go indefinetly and you have to dodge it.
 
 The issue that i got was for the bush not falling properly and the physics too.
+You need the latest distro with updates.
 
 All assets are hand drawn by me.
 
